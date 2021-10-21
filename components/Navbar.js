@@ -1,9 +1,9 @@
 export default function Navbar() {
 	return (
 		<div>
-			<nav className='flex items-center justify-between flex-wrap bg-teal-500 p-6'>
+			<nav className='flex items-center justify-between flex-wrap bg-teal-700 p-6'>
 				<div className='flex items-center flex-shrink-0 text-white mr-6'>
-					<h1 className='text-teal-900 font-bold'>Reef Tracker</h1>
+					<h1 className='text-orange-300 font-bold'>Reef Tracker</h1>
 				</div>
 				<div className='block lg:hidden'>
 					<button className='flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white'>
@@ -41,9 +41,9 @@ export default function Navbar() {
 					<div>
 						<a
 							href='#'
-							className='inline-block text-sm px-4 py-2 leading-none bg-teal-300 rounded text-white border-white hover:border-transparent hover:text-teal-300 hover:bg-teal-800 mt-4 lg:mt-0 transition'
+							className='inline-block text-sm px-4 py-2 leading-none bg-orange-400 rounded text-orange-900 border-white hover:border-transparent hover:bg-orange-300 mt-4 lg:mt-0 transition'
 						>
-							Logout
+							Login
 						</a>
 					</div>
 				</div>
